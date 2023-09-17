@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+tr {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid;
+}
+th:first-child {
+  color: blue;
+  cursor: pointer;
+}
+th:last-child {
+  color: red;
+  cursor: pointer;
+}
